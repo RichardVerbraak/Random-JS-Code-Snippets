@@ -1,0 +1,10 @@
+// Find 'smallest' digit in x
+const n = 932840875
+const minDigit = (x) => {
+  while (!(x <= 10)) {
+    x = x / 10
+  }
+  return Math.floor(x)  
+}
+
+console.log(minDigit(n))
