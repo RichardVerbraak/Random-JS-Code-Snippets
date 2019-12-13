@@ -1,0 +1,9 @@
+const dynamic = "hobbies"
+
+const user = {
+    name: 'Richard',
+    age: 25,
+    [dynamic]: 'Gaming'
+}
+
+console.log(user)
