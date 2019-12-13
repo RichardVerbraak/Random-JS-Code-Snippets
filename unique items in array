@@ -1,0 +1,5 @@
+const users = ["Richard", "Ed", "John", "Jack", "Donald", "Richard", "Richard"]
+
+const unique = Array.from(new Set(users))
+
+console.log(unique)
