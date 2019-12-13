@@ -1,0 +1,18 @@
+/////////
+// Convert array to object with spread operator
+const numbers = [1,2,3,4,5,6,7]
+
+const numbersObject = {...numbers}
+console.log(numbersObject)
+
+
+/////////
+// Convert object to array with the objects values (or keys with Object.keys)
+const users = {
+    name: 'Richard',
+    age: 25,
+    hobbies: 'Gaming'
+}
+
+const userArray = Object.values(users)
+console.log(userArray)
