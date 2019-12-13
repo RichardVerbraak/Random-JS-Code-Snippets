@@ -1,0 +1,9 @@
+const numbers = [1,2,3,4,5,6,7]
+
+// logs 7 to the terminal
+console.log(numbers.slice(-1))
+
+
+// logs the first 5 numbers to the terminal
+numbers.length = 5
+console.log(numbers)
